@@ -8,6 +8,8 @@ import { HomePageComponent } from './modules/home-page/home-page.component';
 import { AuthRoutingModule } from './modules/auth/auth-routing.module';
 import { UserRoutingModule } from './modules/auth/user/user-routing.module';
 import { HomeRoutingModule } from './modules/home-page/home-routing.module';
+import { FeatureModuleRoutingModule } from './modules/feature-modules/feature-module-routing.module';
+import { ListRoutingModule } from './modules/feature-modules/list-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeRoutingModule } from './modules/home-page/home-routing.module';
     AppRoutingModule,
     AuthRoutingModule,
     UserRoutingModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    FeatureModuleRoutingModule,
+    ListRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
