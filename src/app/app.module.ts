@@ -8,9 +8,9 @@ import { HomePageComponent } from './modules/home-page/home-page.component';
 import { AuthRoutingModule } from './modules/auth/auth-routing.module';
 import { UserRoutingModule } from './modules/auth/user/user-routing.module';
 import { HomeRoutingModule } from './modules/home-page/home-routing.module';
-import { FeatureModuleRoutingModule } from './modules/feature-modules/feature-module-routing.module';
-import { ListRoutingModule } from './modules/feature-modules/list-routing.module';
+
 import { CommentComponent } from './modules/feature-modules/comment/comment.component';
+import { AdminModule } from './modules/admin/admin.module';
 
 @NgModule({
   declarations: [
@@ -25,8 +25,8 @@ import { CommentComponent } from './modules/feature-modules/comment/comment.comp
     AuthRoutingModule,
     UserRoutingModule,
     HomeRoutingModule,
-    FeatureModuleRoutingModule,
-    ListRoutingModule
+    AdminModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
