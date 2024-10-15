@@ -8,11 +8,12 @@ import { BodyPageComponent } from './components/body-page/body-page.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { ListProductComponent } from './components/list-product/list-product.component';
 
 
 
 @NgModule({
-  declarations: [HomePageComponent,AdvertisementComponent,BodyPageComponent,CarouselComponent,FooterComponent,NavigationComponent],
+  declarations: [HomePageComponent,AdvertisementComponent,BodyPageComponent,CarouselComponent,FooterComponent,NavigationComponent, ListProductComponent],
 
   exports: [
       HomePageComponent
